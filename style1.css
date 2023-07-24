@@ -1,0 +1,193 @@
+body{
+margin:0px;
+text-align: center;
+font-family: 'Merriweather' ,serif;
+background-color: #a1a7a7;
+  background-image: "images/himu.png.jpg" ;
+   margin:0;
+
+}
+
+.cloud1{
+    position:absolute;
+    right:480px;
+    top:10px;
+}
+.cloud2{
+    position: absolute;
+    left:400px;
+    top:200px;
+}
+.one{
+    background-color: rgb(128, 133, 138);
+   /* width:200px;
+    height: 200px;*/
+    /*border:solid 10px;
+    padding:20px; */
+    padding:100px;
+    position:relative;
+
+}
+
+ /*.me{
+    background-color: rgb(14, 13, 13);
+    width: 200px;
+    height: 200px;
+    border:solid 20px;
+    margin: auto 0px 0px 255px;
+} */
+
+/*.two{
+    background-color: rgb(83, 236, 241);
+    width: 200px;
+    height: 200px;
+   /* border:solid 20px;
+    margin: auto 0px 0px 255px; 
+}*/
+
+/*.three{
+    background-color: rgb(6, 121, 111);
+    width: 200px;
+    height: 200px;
+   /* border:solid 10px;
+    margin: auto 0px 0px 485px; 
+} */
+
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width:4%;
+    margin:100px auto;
+}
+.pro{
+    text-decoration: underline;
+}
+h1{
+   /*background-color: rgb(32, 32, 238);*/
+/*margin:30px;
+    padding: 20px 20px 2px 20px;*/
+    margin: 50px auto 0 auto ;    /* can also written as to make horiz and verti centre --> margin: 0 auto; */
+    width:10%;
+    font-family: 'Sacramento',cursive;
+    font-size: 60px;  /* 100% means 16px so 90% => 90 %/16 =562%  if we write it in % form rather than the px*
+                        1 em means 1 times the width of M 
+                        also 1 em = 16px 
+                        inshort := 1em = 16px = 100% */
+     color:#042c2c;                   
+
+}
+ img{
+    width: 100px;
+    height: 100px;
+ }
+ .moun{
+    width: 400px;
+    height: 300px;
+}
+p{
+    margin:30px;
+    padding:0px;
+    font-weight: normal;
+    line-height: 2;
+}
+h2{
+    margin : 20px;
+    padding:20px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2.5rem;  /* or 40px ( as 1 rem = 16px = 100% ,,, so 40px => 40/16 = 2.5*/
+    color: #500757;
+    padding-left: 10px;
+}
+body{
+ background-color: #e8d9ff;
+    background-image: "images/himu.png.jpg" ;
+    margin:0;
+
+}
+
+h3{
+    text-decoration: #11999E;
+}
+
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill{
+    width:25%;
+    height: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.cloth{
+    width:25%;
+    height: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+/*  clear operation to make the text not wrapped around from left and right resp.
+
+.skill-des{
+    clear: left;
+}
+
+.cloth-des{
+    clear:right;
+} */
+
+.bottom-section{
+    background-color: #66BFBF;
+    padding: 50px 0px 20px;
+}
+
+.p{
+    color: white;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
+
+.middle-section{
+    margin:100px 0px;
+}
+
+a{
+    color:#023252;
+    margin:20px 10px;
+    font-family:  'Montserrat',sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#EAF6F6;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family:  'Montserrat',sans-serif;;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
